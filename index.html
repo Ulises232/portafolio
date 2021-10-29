@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  
+  
+</head>
+<body>
+    <script src="js/vue.js"></script>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar">
+                <div class="brand">
+                    <h2>U <span>C</span></h2>
+                </div>
+                <ul class="menu">
+                    <li><a  href="#">Home</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#portafolio">Portafolio</a></li>
+                </ul>
+
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <div class="info-content">
+                <h1><span>Ulises </span>Cardona</h1>
+<<<<<<< HEAD
+=======
+                
+>>>>>>> 01a848de4f345d6aa827c8a065ed869ada967170
+                <a download="CV.pdf" href="resource/CV ULISES.pdf">
+                    <button class="download-cv"  >Descargar  CV</button>
+                </a>
+            </div>
+            <img src="img/CV.png" alt="Ulises Cardona CV"> 
+        </main>
+    </div>
+
+    
+    
+    <div id="habilidades" class="about">
+        <div class="habilidades-headings">
+            <h2>Mis habilidades</h2>
+            <div class="divider"></div>
+        </div>
+        <div class="iconos">
+            <div class="iconos-item">
+                <i class="fab fa-html5"></i>
+                <h5>HTML</h5>
+            </div>
+            <div class="iconos-item">
+                <i class="fab fa-css3"></i>
+                <h5>CSS</h5>
+            </div>
+            <div class="iconos-item">
+                <i class="fab fa-js"></i>
+                <h5>JS</h5>
+            </div>
+            <div class="iconos-item">
+                <i class="fab fa-vuejs"></i>
+                <h5>VUEJs</h5>
+            </div>
+            <div class="iconos-item">
+                <i class="fab fa-laravel"></i>
+                <h5>LARAVEL</h5>
+            </div>
+
+            
+        </div>
+        <div class="iconos">
+            <div class="iconos-item">
+                <i class="fab fa-bootstrap"></i>
+                <h5>BOOTSTRAP</h5>
+            </div>
+            <div class="iconos-item">
+                <i class="fas fa-database"></i>
+                <h5>SQL</h5>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div  id="portafolio" class="portafolio">
+        <div class="portafolio-headings">
+            <h2>Mi Portafolio</h2>
+            <div  class="divider"></div>
+        </div>
+
+        <div class="containers">
+            <div class="carta">
+                <div class="carta_img">
+
+                </div>
+                <div class="carta_title">
+                    <h2>Proyecto Escuela</h2>
+                </div>
+                <div class="carta_links">
+                    <a href="https://github.com/Ulises232/prueba.github.io" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://ulises232.github.io/prueba.github.io/" target="_blank">
+                        <i class="fas fa-globe-europe"></i>
+                    </a>
+                        
+                </div>
+                <div class="carta_details">
+                    <button @click.prevent="ventana_1 = true" class="carta_button download-cv">
+                        <a href="">Detalles</a>
+                    </button>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="carta_img">
+
+                </div>
+                <div class="carta_title">
+                    <h2>Proyecto Escuela</h2>
+                </div>
+                <div class="carta_links">
+                    <a href="https://github.com/Ulises232/prueba-git" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://ulises232.github.io/prueba-git/" target="_blank">
+                        <i class="fas fa-globe-europe"></i>
+                    </a>
+                        
+                </div>
+                <div class="carta_details">
+                    <button @click.prevent="ventana_2 = true" class="carta_button download-cv">
+                        <a href="">Detalles</a>
+                    </button>
+                </div>
+            </div>
+            <div class="carta">
+                <div class="carta_img">
+
+                </div>
+                <div class="carta_title">
+                    <h2>Proyecto Escuela Laravel</h2>
+                </div>
+                <div class="carta_links">
+                    <a href="https://github.com/Ulises232/laravel-proyecto" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                   <button @click.prevent="video_1 = true"> 
+                       <i class="fab fa-youtube"></i>
+                   </button>
+                        
+                </div>
+                <div class="carta_details">
+                    <button @click.prevent="ventana_3 = true" class="carta_button download-cv">
+                        <a href="">Detalles</a>
+                    </button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="containers">
+            <div class="carta">
+                <div class="carta_img">
+
+                </div>
+                <div class="carta_title">
+                    <h2>Base de Datos Osfamas</h2>
+                </div>
+                <div class="carta_links">
+                    <a href="https://github.com/Ulises232/osfama-laravel" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                   <button @click.prevent="video_2 = true"> 
+                       <i class="fab fa-youtube"></i>
+                   </button>
+                        
+                </div>
+                <div class="carta_details">
+                    <button @click.prevent="ventana_4 = true" class="carta_button download-cv">
+                        <a href="">Detalles</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Modales  -->
+            <div v-bind="ventana_1" v-if=" ventana_1" class="modal-container">
+                <div class="modal">
+                    <button @click.prevent="ventana_1 = false" class="modal-close"><i class="fas fa-times"></i></button>
+                    <div class="modal-img"> <img src="img/1-proyecto.png" alt=""> </div>
+                    <div class="modal-title">
+                        <h2>Proyecto con formularios</h2>
+                    </div>
+                    <div class="modal-section">
+                        <p>La pagina web la realice para proyecto de la universidad y el proposito era demostrar los aprendido en las clases y con ello mostrar los formularios y algunos efectos, lo realice con html y css.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="iconos-item">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="iconos-item">
+                            <i class="fab fa-css3"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div v-bind="ventana_2" v-if=" ventana_2" class="modal-container">
+                <div class="modal">
+                    <button @click.prevent="ventana_2 = false" class="modal-close"><i class="fas fa-times"></i></button>
+                    <div class="modal-img"> <img src="img/2-proyecto.png" alt=""> </div>
+                    <div class="modal-title">
+                        <h2>Proyecto para Empresa de audio e iluminación</h2>
+                    </div>
+                    <div class="modal-section">
+                        <p>La pagina web la realice para proyecto de la universidad y el proposito era demostrar los aprendido en las clases, la tematica se enfoca para una empresa de audio e iluminación, algunos efectos, lo realice con html y css.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="iconos-item">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="iconos-item">
+                            <i class="fab fa-css3"></i>
+                        </div>
+                        <div class="iconos-item">
+                            <i class="fab fa-js"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div v-bind="ventana_3" v-if=" ventana_3" class="modal-container">
+                <div class="modal">
+                    <button @click.prevent="ventana_3 = false" class="modal-close"><i class="fas fa-times"></i></button>
+                    <div class="modal-img"> <img src="img/4-proyecto.png" alt=""> </div>
+                    <div class="modal-title">
+                        <h2>Tienda de Libros electronicos </h2>
+                    </div>
+                    <div class="modal-section">
+                        <p>La pagina web la realice para proyecto de la universidad y el proposito era demostrar los aprendido en las clases, la tematica se enfoca en una tienda de libros electronicos, lo realice con  Bootstrap, Laravel y MySql .</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="iconos-item">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <div class="iconos-item">
+                            <i class="fab fa-laravel"></i>
+                        </div>
+                        <div class="iconos-item">
+                            <i class="fas fa-database"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div v-bind="ventana_4" v-if=" ventana_4" class="modal-container">
+                <div class="modal">
+                    <button @click.prevent="ventana_4 = false" class="modal-close"><i class="fas fa-times"></i></button>
+                    <div class="modal-img"> <img src="img/3-proyecto.png" alt=""> </div>
+                    <div class="modal-title">
+                        <h2>Base de Datos Osfamas</h2>
+                    </div>
+                    <div class="modal-section">
+                        <p>La pagina web la realice para un proyecto de una empresa llamada Osfamas, en el podemos registrar usuarios, darles un rol, formularios de orden, lo que se pretende es que se lleve un control de las trabajos por cada personal que este registrado en la app, lo realice con  Bootstrap, Laravel y MySql .</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="iconos-item">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <div class="iconos-item">
+                            <i class="fab fa-laravel"></i>
+                        </div>
+                        <div class="iconos-item">
+                            <i class="fas fa-database"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div v-bind="video_1" v-if=" video_1" class="modal-container">
+                <div class="modal-video">
+                    <button @click.prevent="video_1 = false" class="modal-close"><i class="fas fa-times"></i></button>
+                    <div class="modal-img"> 
+                        <video  controls class="video">
+                            <source  src="source/laravel-libros.mp4" type="video/mp4" >
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+            <div v-bind="video_2" v-if=" video_2" class="modal-container">
+                <div class="modal-video">
+                    <button @click.prevent="video_2 = false" class="modal-close"><i class="fas fa-times"></i></button>
+                    <div class="modal-img"> 
+                        <video  controls class="video">
+                            <source  src="source/osfama.mp4" type="video/mp4" >
+                        </video>
+                    </div>
+                </div>
+            </div>
+    
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h2>Ulises Cardona</h2>
+        </div>
+        <div class="social-network">
+            <a href="https://www.facebook.com/ulises.cardonatavarez" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <div  class="scroll">
+    </div>
+
+   
+
+
+    <script src="js/script.js"></script>
+    
+
+</body>
+</html>
